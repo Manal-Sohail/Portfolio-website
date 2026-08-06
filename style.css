@@ -75,7 +75,7 @@ html{
 
 .profile {
     position: fixed !important;
-    top:90px;
+    top:70px;
     height: 526px;
     width: 300px;
     border: 2px solid purple;
@@ -144,6 +144,7 @@ html{
     margin:auto;
     font-weight: lighter;
     line-height: 1.2;
+    margin-left:80px;
 }
 .hero-text h1{
     font-size: 60px;
