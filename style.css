@@ -173,7 +173,7 @@ html{
 } 
 
 .about-container {
-    max-width: 900px;
+    max-width: 800px;
     margin-left: 400px;
     margin-bottom: 70px;
 }
@@ -247,7 +247,7 @@ html{
 }
 
 .skills-container{
-    max-width: 900px;
+    max-width: 800px;
 }
 
 .skills-container h2{
