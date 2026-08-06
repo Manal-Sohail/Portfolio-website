@@ -23,7 +23,7 @@ html{
 
 .navbar {
     width: 100%;
-    height: 50px;
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +76,7 @@ html{
 .profile {
     position: fixed !important;
     top:60px;
-    height: 526px;
+    height: 530px;
     width: 300px;
     border: 2px solid purple;
     border-radius: 10px;
