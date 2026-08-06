@@ -143,26 +143,27 @@ html{
     color: #601fc1;
     font-weight: lighter;
     line-height: 1.2;
-    margin-left:500px;
 }
 .hero-text h1{
     font-size: 60px;
     font-weight: 600;
     margin-right: 50px;
+    margin-left:400px;
 }
 
 .hero-text h2{
     font-size: 60px;
     font-weight: 400;
     color:rgba(0, 0, 0, 0.283)lack;
-    margin-left: 20px;
+    margin-left: 400px;
+
 }
 .hero-text p{
     color:black;
     font-size:25px;
     line-height:1.7;
     margin-top:20px;
-    margin-left:60px;
+    margin-left:400px;
     width:650px;
     border:1px solid transparent;
     border-radius: 20px;
