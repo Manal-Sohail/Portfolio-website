@@ -76,7 +76,7 @@ html{
 .profile {
     position: fixed !important;
     top:60px;
-    height: 550px;
+    height: 540px;
     width: 300px;
     border: 2px solid purple;
     border-radius: 10px;
