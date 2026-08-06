@@ -74,19 +74,19 @@ html{
 }
 
 .profile {
-    margin-bottom: 60px;
-    position: fixed;
+    position: fixed !important;
     top:90px;
     height: 526px;
     width: 300px;
     border: 2px solid purple;
     border-radius: 10px;
-    margin-left: 40px;
+    left: 40px;
     background-color:lavenderblush;
      box-shadow:
         0 0 8px rgba(192,132,252,0.5),
         0 0 18px rgba(192,132,252,0.4),
         0 0 30px rgba(96,165,250,0.25);
+    margin:0;
 }
 .image img {
     height: 350px;
@@ -133,47 +133,10 @@ html{
         0 0 10px #8B5CF6,
         0 0 20px #8B5CF6;
 }
-.hero {
+
+.hero{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 100vh;
-}
-
-.hero-text {
-    color: #601fc1;
-    font-weight: lighter;
-    line-height: 1.2;
-}
-
-.hero-text h1 {
-    font-size: 60px;
-    font-weight: 600;
-    margin-left: 0;
-}
-
-.hero-text h2 {
-    font-size: 60px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.283);
-    margin-left: 0;
-}
-
-.hero-text p {
-    color: black;
-    font-size: 25px;
-    line-height: 1.7;
-    margin-top: 20px;
-    margin-left: 0;
-    width: 650px;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-/* .hero{
-    display: flex;
+    
 }
 
 .hero-text {
@@ -205,7 +168,7 @@ html{
     border-radius: 20px;
     padding:10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-} */
+} 
 
 .about-container {
     max-width: 900px;
@@ -431,9 +394,7 @@ html{
 .project-btns a:hover{
     transform: scale(1.05);
 }
-/* ======================
-      CONTACT SECTION
-====================== */
+
 
 #contact{
     margin-left:400px;
@@ -560,14 +521,13 @@ button:hover{
         font-size:22px;
     }
 
-    /* HERO */
+    
 
     .hero{
         flex-direction:column;
         align-items:center;
     }
 
-    /* PROFILE */
 
     .profile{
         position:static;
@@ -582,7 +542,6 @@ button:hover{
         height:auto;
     }
 
-    /* HERO TEXT */
 
     .hero-text{
         text-align:center;
@@ -607,7 +566,6 @@ button:hover{
         box-sizing:border-box;
     }
 
-    /* COMMON SECTIONS */
 
     .about-container,
     #skills,
@@ -624,7 +582,6 @@ button:hover{
         max-width:100%;
     }
 
-    /* ABOUT */
 
     .about-container h2,
     .skills-container h2,
@@ -642,14 +599,12 @@ button:hover{
         font-size:18px;
     }
 
-    /* SKILLS */
 
     .skills-grid{
         grid-template-columns:repeat(2,1fr);
         gap:20px;
     }
 
-    /* PROJECTS */
 
     .projects-grid{
         grid-template-columns:1fr;
@@ -663,7 +618,6 @@ button:hover{
         justify-content:center;
     }
 
-    /* CONTACT */
 
     #contact-form{
         padding:20px;
@@ -683,9 +637,7 @@ button:hover{
     }
 
 }
-/* ===================================
-            DARK MODE
-=================================== */
+
 
 .dark-mode{
     background: linear-gradient(
@@ -698,7 +650,7 @@ button:hover{
     transition:.4s ease;
 }
 
-/* Navbar */
+
 
 .dark-mode .navbar{
     background:rgba(15,23,42,.85);
@@ -720,7 +672,7 @@ button:hover{
     cursor:pointer;
 }
 
-/* Profile */
+
 
 .dark-mode .profile{
 
@@ -753,7 +705,7 @@ button:hover{
 
 }
 
-/* Hero */
+
 
 .dark-mode .hero-text h1{
     color:#C084FC;
@@ -770,7 +722,7 @@ button:hover{
 
 }
 
-/* Section headings */
+
 
 .dark-mode .about-container h2,
 .dark-mode .skills-container h2,
@@ -781,7 +733,6 @@ button:hover{
 
 }
 
-/* Cards */
 
 .dark-mode .about-card,
 .dark-mode .skill-card,
@@ -797,7 +748,7 @@ button:hover{
 
 }
 
-/* Text */
+
 
 .dark-mode p,
 .dark-mode .ed-item p{
@@ -813,7 +764,6 @@ button:hover{
 
 }
 
-/* Education line */
 
 .dark-mode .ed-item{
 
@@ -827,7 +777,6 @@ button:hover{
 
 }
 
-/* Skills */
 
 .dark-mode .skill-card p{
 
@@ -835,7 +784,6 @@ button:hover{
 
 }
 
-/* Tech stack */
 
 .dark-mode .tech-stack span{
 
@@ -844,7 +792,6 @@ button:hover{
 
 }
 
-/* Buttons */
 
 .dark-mode .project-btns a:first-child{
 
@@ -865,7 +812,6 @@ button:hover{
 
 }
 
-/* Contact */
 
 .dark-mode .input-group label{
 
